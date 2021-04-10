@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Generate QR!</button><br><br>
+    <img src>
+    <script>
+        var parametersJson = {
+            "size": 250, // Size of Qr Code
+            "backgroundColor": "38-38-38", // Background Color Of Qr Code (In RGB)
+            "qrColor": "255-255-255", // Color of Qr Code (In RGB)
+            "padding": 2, // Padding 
+            "data": "dev.to"
+        };
+
+        var parameters;
+
+        var btn = document.querySelector("button");
+        var img = document.querySelector("img");
+        var input = currentFeature.geometry.coordinates[0] + currentFeature.geometry.coordinates[1];
+
+        btn.addEventListener("click", function(){
+            parametersJson.data = input.value || "dev.to";
+            parameters = `size=${parametersJson.size}&bgcolor=${parametersJson.backgroundColor}&color=${parametersJson.qrColor}&qzone=${parametersJson.padding}&data=${parametersJson.data}` // Stitch Together all Paramenters
+            img.src = `https://api.qrserver.com/v1/create-qr-code/?${parameters}` // Set Image URL To Link
+        });
+    </script>
+</body>
+</html>
