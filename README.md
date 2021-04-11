@@ -12,7 +12,7 @@ Pankti, is an app that revolutionaries this process of standing in queues with i
 
 Right from any location, users can view waiting times and the number of people currently in Queue for shops near them to help them decide whether it's worth getting in line, just like how people would in a physical line. Users can queue up by joining a Queue at a click of a button and will eventually receive notifications when it's their turn to enter the store. This way users can use their time doing other work while standing in the Queue virtually.
 
-We've created a prototype that has a map with 12 mock locations. Once "Queue Me" is clicked, a QR code is generated and a vrutual queue number is generated.
+We've created a prototype that has a map with 12 mock locations. Once "Queue Me" is clicked, a QR code is generated and a virtual queue number is generated.
   
 ## Demo Video Link:
   <a href="https://drive.google.com/drive/folders/1U_opOFTy2GnLIZq2_dxe_LVUeHhQE6qb?usp=sharing">Watch the idea behind the video here!</a>
