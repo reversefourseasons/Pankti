@@ -15,15 +15,16 @@ Right from any location, users can view waiting times and the number of people c
 We've created a prototype that has a map with 12 mock locations. Once "Queue Me" is clicked, a QR code is generated and a vrutual queue number is generated.
   
 ## Demo Video Link:
-  <a href="https://youtu.be/dQw4w9WgXcQ">Watch the idea behind the video here!</a>
+  <a href="">Watch the idea behind the video here!</a>
   
 ## Presentation Link:
-  <a href="https://docs.google.com/presentation/d/1NEbqpM6J6UkmHN_J6NsgOhKvDU6fkfnli4OIg1lh-pk/edit?usp=sharing">Presentation Link Here</a>
+  <a href="https://docs.google.com/presentation/d/1kQymoBucpWxvub7icRd0pLA-XqP0cHVPw9-IQc2oB4E/edit?usp=sharing">Presentation Link Here</a>
   
 
 ## Technology Stack:
   1) Mapbox GL
   2) JavaScript
+  3) QR Code API
 
 ## Contributors:
 
